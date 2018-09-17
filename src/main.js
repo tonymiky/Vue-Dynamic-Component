@@ -28,26 +28,6 @@ promise.polyfill();
 // const apiURL_PATH = '/yxcode-channel-gateway/channel/';
 // const rootURL_PATH = '/yxcode-channel-gateway/'; //用户登入登出 左侧菜单
 
-// docker24 环境
- //const apiURL_PATH = '/yxcode-channel-docker24-gateway/channel/';
-// const rootURL_PATH = '/yxcode-channel-docker24-gateway/'; //用户登入登出 左侧菜单
-
-// uat 环境
-// const apiURL_PATH = '/yxcode-channel-uat-gateway/channel/';
-// const rootURL_PATH = '/yxcode-channel-uat-gateway/'; //用户登入登出 左侧菜单
-
-// pro 环境
-// const apiURL_PATH = '/yxcode-channel-pro-gateway/channel/';
-// const rootURL_PATH = '/yxcode-channel-pro-gateway/'; //用户登入登出 左侧菜单
-
-// k8s 环境
- const apiURL_PATH = '/yxcode-channel-docker-gateway/channel/';
- const rootURL_PATH = '/yxcode-channel-docker-gateway/'; //用户登入登出 左侧菜单
-
-// test 环境
-// const apiURL_PATH = '/yxcode-channel-test-gateway/channel/';
-// const rootURL_PATH = '/yxcode-channel-test-gateway/'; //用户登入登出 左侧菜单
-
 // 图片路径
 Vue.prototype.$imgURL_PATH = window.location.origin + apiURL_PATH + 'fileDownload/download?fileId=';
 
