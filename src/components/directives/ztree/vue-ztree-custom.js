@@ -9,6 +9,7 @@ export default {
         let _this = context.context;
         let id = el.id;
         let ztreeParams = binding.value.ztreeParams;
+        let  apiUrl = binding.value。apiUrl;
 
         console.log(binding, 'binding');
 
@@ -50,12 +51,12 @@ export default {
         _this.ztreeLoading = true;
 
         let params = {
-            "dimensionCode": "DM00000003"
+
         };
 
         _this.$nextTick(()=>{
             setTimeout(()=>{
-                _this.$http.post('/tbMultipleNode/tbMultipleNodeTree?t='+new Date().getTime(),params).then(resp=>{
+                _this.$http.post(apiUrl s+ '?t='+new Date().getTime(),params).then(resp=>{
                     _this.ztreeLoading = false;
                     $('#authorization-ztree-value').val('');
                     _this.ztreeValidate.ztreeValue="";

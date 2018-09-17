@@ -7,9 +7,6 @@ module.exports = {
         index: path.resolve(__dirname, '../dist/index.html'),
         assetsRoot: path.resolve(__dirname, '../dist'),
         assetsSubDirectory: './wportal/source',
-        //assetsPublicPath: '/channel3-test/',        
-        //assetsPublicPath: '/channel3-k8s/',
-        //assetsPublicPath: '/channel3-docker24/',
         assetsPublicPath: '/',
         productionSourceMap: true,
         // Gzip off by default as many popular static hosts such as
@@ -39,21 +36,7 @@ module.exports = {
                 pathRewrite: {
                     '^/yxcode-channel-gateway': '/yxcode-channel-gateway'
                 }
-            },
-            // '/api': {
-            //   target: 'http://localhost:8081/',
-            //   changeOrigin: true,
-            //   pathRewrite: {
-            //     '^/api': '/api'
-            //   }R
-            // },
-            // '/demo': {
-            //   target: 'http://localhost:8081/',
-            //   changeOrigin: true,
-            //   pathRewrite: {
-            //     '^/demo': '/demo'
-            //   }
-            // }
+            }
         },
         // CSS Sourcemaps off by default because relative paths are "buggy"
         // with this option, according to the CSS-Loader README
