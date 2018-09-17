@@ -1,0 +1,108 @@
+.channels-common-search-content {
+  position: relative;
+  padding: 20px 30px;
+  background: #fff;
+}
+.channels-common-body {
+  position: relative;
+  padding: 15px 30px;
+  background: #fff;
+}
+.channels-common-body-button button {
+  margin-bottom: 7px;
+}
+.channels-common-body-content {
+  color: #000;
+}
+.channels-common-body-content .channels-common-body-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+.channels-common-body-content .channels-common-body-title span {
+  width: 4px;
+  height: 14px;
+  display: inline-block;
+  background: #000;
+  margin-right: 4px;
+  margin-bottom: -1px;
+}
+.channels-common-body-content .channels-common-body-title div {
+  display: inline-block;
+}
+.channels-common-body-content .channels-common-body-cont {
+  padding: 15px;
+  background: #fff;
+}
+.channels-common-body-content .channels-common-body-cont .noEmpty {
+  padding-left: 12%;
+}
+.clearboth {
+  display: block;
+  clear: both;
+  width: 100%;
+  zoom: 1;
+}
+.clearboth::before {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.clearboth::after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.font-right {
+  padding: 0 5px 0 0;
+  text-align: right;
+}
+.hr {
+  border: 1px solid #eee;
+}
+.channels-more-options {
+  border: 1px solid #eee;
+  border-top: none;
+  padding: 10px;
+}
+.channels-more-options-button {
+  float: right;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #eee;
+  border-top: none;
+  padding: 0 10px;
+  line-height: 24px;
+  z-index: 2;
+  top: -1px;
+  background: #fff;
+}
+.ivu-form-item-error-tip {
+  padding-left: 0;
+}
+.vue-theader .ivu-table th {
+  height: 18px !important;
+  line-height: 12px !important;
+}
+.vue-theader .ivu-table .row-rel {
+  position: relative!important;
+  overflow: visible!important;
+}
+.vue-theader .ivu-table .row-rel .ivu-table-cell {
+  position: absolute!important;
+  background: #f0f2f4 ;
+  width: 100%;
+  height: 140%;
+  z-index: 0000000;
+  top: 12px;
+  text-align: center;
+}
+.select-button {
+  color: #fff;
+  border-color: #2d8cf0!important;
+  background-color: #2d8cf0!important;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #fff!important;
+}

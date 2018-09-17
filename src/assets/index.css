@@ -1,0 +1,57 @@
+body,
+html,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Microsoft YAHEI";
+}
+
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src: url('./fonts/fontwename.woff') format("woff"), url('./fonts/fontwename.ttf') format("truetype"), url('./fonts/fontwename.eot') format("embedded-opentype");
+    /* IE9 */
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.contentner {
+    width: 100%;
+    /* padding-top: 70px; */
+}
+.ivu-tag.ivu-tag-border{
+    margin-right: 10px
+}
+.ivu-btn-ghost{
+    background: #fff !important
+}
+.ivu-btn-ghost:hover{
+    background: #fff !important
+}
+
+
