@@ -33,43 +33,6 @@ npm run build --report
 │   │    ├── directives        // 自定义指令
 │   │    ├── mixin             //全局注入
 │   │    └── pages            // 业务页面
-│   │         └── expansionMainternance // 拓展功能维护
-│   │                 ├── GpsManufacturerManagement //GPS厂商管理
-│   │                 │     ├── GpsManufacturerManagement.vue //列表页
-│   │                 │     └── GpsManufacturerSettings.vue //GPS厂商政策配置
-│   │                 │
-│   │                 ├── cooperationProjects //合作项目管理
-│ 	│ 				  │ 	├── cooperationProjects.vue //列表页
-│   │                 │     └──
-│   │                 │
-│   │                 ├── invoiceTrialManagement //发票审放管理
-│	│				  │		├── invoiceTrialManagement.vue //列表页
-│   │                 │     └── invoiceTrialSettings.vue //发票审放配置
-│   │                 │
-│   │                 ├── offsetModeManagement //抵放模式管理
-│	│				  │ 	├── offsetModeManagement.vue //列表页
-│   │                 │     └── configurationPolicyPackage.vue //抵放模式政策包配置
-│   │                 │
-│   │                 └── 
-
-
-				└── basicConfiguration // 基础配置管理
-│   │                 ├── businessManagement //业务包管理
-│   │                 │     ├── businessManagement.vue //列表页
-│   │                 │     └── businessManagementAdd.vue //添加业务包
-                	  └── 
-
-
-				└── dealerClassification // 经销商分级管理
-│   │                 ├── 
-│   │                 │    
-│   │                 └── 
-
-				└── salesChannels // 销售渠道管理
-│   │                 ├── myChannel //我的渠道
-│   │                 │     ├── myChannel.vue //列表页
-│   │                 │
-│   │                 └── 
 │   │
 │   │
 │   ├── utils                // 工具函数
